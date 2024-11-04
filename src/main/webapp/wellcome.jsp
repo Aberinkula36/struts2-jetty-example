@@ -14,7 +14,7 @@
     <h1>Resumen de factura:</h1>
 
     <p><strong>Importe bruto:</strong> <s:property value="invoiceBean.grossAmount"/></p>
-    <p><strong>Fecha 'Date to':</strong> <s:date name="invoiceBean.dateTo" format="dd/MM/yyyy"/></p>
+    <p><strong>Fecha 'Date to':</strong> <s:date name="invoiceBean.dateTo" format="dd/mm/yyyy"/></p>
     <p><strong>Importe con IVA (21%):</strong> <s:property value="grossAmountWithVAT"/></p>
 
 </body>
